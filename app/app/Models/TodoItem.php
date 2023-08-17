@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class TodoItem extends Model
 {
     use HasFactory;
-    // 以下１行を追加
+		// 以下1行を追加
     protected $fillable = ['user_id','title','is_done'];
 }
-
